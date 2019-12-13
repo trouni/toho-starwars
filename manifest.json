@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "TOHO - Star Wars Preorders",
+  "description": "",
+  "author": "Trouni Tiet",
+  "version": "0.0.1",
+  "permissions": ["tabs"]
+}
