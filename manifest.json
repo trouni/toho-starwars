@@ -4,5 +4,16 @@
   "description": "",
   "author": "Trouni Tiet",
   "version": "0.0.1",
-  "permissions": ["tabs"]
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://hlo.tohotheater.jp/*"],
+      "js": ["auto-buy.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
